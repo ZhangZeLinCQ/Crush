@@ -1,8 +1,6 @@
 ﻿#pragma once
 #include <iostream>
-#include "Geomegry.h"
-
-
+#include "Geometry.h"
 
 // 测试函数
 void test_IsConvexQuad() {

@@ -26,11 +26,41 @@
     <ClInclude Include="Vector.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Geomegry.h">
+    <ClInclude Include="Geometry.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Geometry_test.h">
       <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Vorinoi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Minkowski.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvexHull.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingVolume\AABB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingVolume\OBB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingVolume\Sphere.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\BVH.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\BSP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\OctTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure\KDTree.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

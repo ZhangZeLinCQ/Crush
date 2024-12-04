@@ -130,9 +130,19 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Geomegry.h" />
+    <ClInclude Include="BoundingVolume\AABB.h" />
+    <ClInclude Include="BoundingVolume\OBB.h" />
+    <ClInclude Include="BoundingVolume\Sphere.h" />
+    <ClInclude Include="ConvexHull.h" />
+    <ClInclude Include="Geometry.h" />
     <ClInclude Include="Geometry_test.h" />
+    <ClInclude Include="Minkowski.h" />
+    <ClInclude Include="Structure\BSP.h" />
+    <ClInclude Include="Structure\BVH.h" />
+    <ClInclude Include="Structure\KDTree.h" />
+    <ClInclude Include="Structure\OctTree.h" />
     <ClInclude Include="Vector.h" />
+    <ClInclude Include="Vorinoi.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
